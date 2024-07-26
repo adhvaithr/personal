@@ -46,7 +46,7 @@
     display: none;
   }
   .controlls {
-    top: 95% !important;
+    top: 93% !important;
     bottom: 0;
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
@@ -63,7 +63,7 @@
     margin-top: 1.5rem;
   }
   .controlls .control {
-    margin: .6rem 1rem !important;
+    margin: .5rem .5rem !important;
   }
 }
 
@@ -97,7 +97,7 @@
     padding-bottom: 6rem;
   }
   .left-header .h-shape {
-    display: none;
+    display: none !important;
   }
   .right-header {
     -ms-grid-row: 1;
@@ -109,8 +109,8 @@
     font-size: 2.5rem !important;
   }
   .header-content .left-header .image {
-    margin: 0 auto;
-    width: 90%;
+    margin: 0 auto !important;
+    width: 90% !important;
   }
 }
 

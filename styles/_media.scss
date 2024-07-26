@@ -49,7 +49,7 @@
     }
 
     .controlls{
-        top: 95% !important;
+        top: 93% !important;
         bottom: 0;
         flex-direction: row !important;
         justify-content: center !important;
@@ -59,7 +59,7 @@
         height: 10%;
         margin-top: 1.5rem;
         .control{
-            margin: .6rem 1rem !important;
+            margin: .5rem .5rem !important;
         }
     }
 }
@@ -101,7 +101,7 @@
 
     .left-header{
         .h-shape{
-            display: none;
+            display: none !important;
         }
     }
 
@@ -115,8 +115,9 @@
     }
 
     .header-content .left-header .image{
-        margin: 0 auto;
-        width: 90%;
+        margin: 0 auto !important;
+        width: 90% !important;
+        
     }
 }
 
