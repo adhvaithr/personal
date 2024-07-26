@@ -1,52 +1,65 @@
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .about-container{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
         .right-about{
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr !important;
             padding-top: 2.5rem;
         }
         .left-about{
-            padding-right: 0;
+            padding-right: 0 !important;
             p{
-                padding-left: 0;
+                padding-left: 0 !important;
             }
         }
     }
 
     .timeline{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
         padding-bottom: 6rem;
     }
 
-    .about-stats{
-        .progress-bars{
-            grid-template-columns: 1fr;
-        }
-    }
-
-    .portfolio{
-        grid-template-columns: 1fr;
+    .portfolios{
+        grid-template-columns: 1fr !important;
         padding-bottom: 6rem;
     }
 
     .blogs{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
         padding-bottom: 6rem;
     }
 
     .section{
-        padding: 2rem 2.5rem;
+        padding: 2rem 2.5rem !important;
     }
 
     .main-title{
         h2{
-            font-size: 2rem;
+            font-size: 2rem !important;
             span{
                 font-size: 2.5rem;
             }
             .bg-text{
-                font-size: 3rem;
+                font-size: 3rem !important;
             }
+        }
+    }
+
+    .controlls .active{
+        display: none;
+    }
+
+    .controlls{
+        top: 95% !important;
+        bottom: 0;
+        flex-direction: row !important;
+        justify-content: center !important;
+        left: 0%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 10%;
+        margin-top: 1.5rem;
+        .control{
+            margin: .6rem 1rem !important;
         }
     }
 }
@@ -55,19 +68,15 @@
     .section{
         padding: 7rem 3rem;
     }
+    
     .about-stats{
         .progress-bars{
-            grid-template-columns: 1fr;
-        }
-    }
-    .main-title{
-        h2{
-            font-size: 3rem;
+            grid-template-columns: 1fr !important;
         }
     }
 }
 
-@media screen and (max-width: 970px){
+@media screen and (max-width: 970px) {
     .section{
         padding: 7rem 6rem;
     }
@@ -81,12 +90,12 @@
     }
 
     .theme-btn{
-        width: 50px;
-        height: 50px;
+        width: 50px !important;
+        height: 50px !important;
     }
 
     .header-content{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr !important;
         padding-bottom: 6rem;
     }
 
@@ -107,27 +116,13 @@
 
     .header-content .left-header .image{
         margin: 0 auto;
-        width: 90%;    
-    }
-
-    .controlls{
-        top: auto;
-        bottom: 0;
-        flex-direction: row;
-        justify-content: center;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 100%;
-        background-color: var(--color-grey-5);
-        .control{
-            margin: 1rem .3rem;
-        }
+        width: 90%;
     }
 }
 
 @media screen and (max-width: 1070px) {
     .about-container{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
         .right-about{
             padding-top: 2.5rem;
         }
@@ -143,12 +138,12 @@
 
     .main-title{
         h2{
-            font-size: 4rem;
+            font-size: 4rem !important;
             span{
                 font-size: 4rem;
             }
             .bg-text{
-                font-size: 4.5rem;
+                font-size: 4.5rem !important;
             }
         }
     }
@@ -158,7 +153,7 @@
     header{
         padding: 0 !important;
     }
-
+    
     .section{
         padding: 7rem 11rem;
     }
@@ -166,17 +161,17 @@
     .contact-content-con{
         flex-direction: column;
         .right-contact{
-            margin-left: 0;
-            margin-top: 2.5rem;
+            margin-left: 0 !important;
+            margin-right: 2.5rem !important;
         }
     }
 
-    .contact-content-con .right-contact .i-ctrl-2{
-        flex-direction: column;
+    .contact-content-con .right-contact .i-c-2{
+        flex-direction: column !important;
     }
 
-    .contact-content-con .right-contact .i-ctrl-2:left-child{
-        margin-left: 0;
-        margin-top: 1.5rem;
+    .contact-content-con .right-contact .i-c-2 :last-child{
+        margin-left: 0 !important;
+        margin-top: 1.5rem !important;
     }
 }
