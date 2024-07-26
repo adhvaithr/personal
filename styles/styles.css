@@ -1,5 +1,46 @@
 /* CSS Basic Page Resetting */
 @media screen and (max-width: 600px) {
+  .section {
+    padding: 2rem 2.5rem !important;
+  }
+  .main-title h2 {
+    font-size: 2rem !important;
+  }
+  .main-title h2 span {
+    font-size: 2.5rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 3rem !important;
+  }
+  .controlls .active {
+    display: none;
+  }
+  .controlls {
+    top: 91% !important;
+    bottom: 0;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    left: 0%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 100%;
+    height: 10%;
+    margin-top: .5rem;
+  }
+  .controlls .control {
+    margin: .5rem .5rem !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section {
+    padding: 7rem 3rem;
+  }
   .about-container {
     -ms-grid-columns: 1fr !important;
         grid-template-columns: 1fr !important;
@@ -19,57 +60,6 @@
     -ms-grid-columns: 1fr !important;
         grid-template-columns: 1fr !important;
     padding-bottom: 6rem;
-  }
-  .portfolios {
-    -ms-grid-columns: 1fr !important;
-        grid-template-columns: 1fr !important;
-    padding-bottom: 6rem;
-  }
-  .blogs {
-    -ms-grid-columns: 1fr !important;
-        grid-template-columns: 1fr !important;
-    padding-bottom: 6rem;
-  }
-  .section {
-    padding: 2rem 2.5rem !important;
-  }
-  .main-title h2 {
-    font-size: 2rem !important;
-  }
-  .main-title h2 span {
-    font-size: 2.5rem;
-  }
-  .main-title h2 .bg-text {
-    font-size: 3rem !important;
-  }
-  .controlls .active {
-    display: none;
-  }
-  .controlls {
-    top: 93% !important;
-    bottom: 0;
-    -webkit-box-orient: horizontal !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: row !important;
-            flex-direction: row !important;
-    -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
-    left: 0%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    width: 100%;
-    height: 10%;
-    margin-top: 1.5rem;
-  }
-  .controlls .control {
-    margin: .5rem .5rem !important;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .section {
-    padding: 7rem 3rem;
   }
   .about-stats .progress-bars {
     -ms-grid-columns: 1fr !important;
@@ -107,6 +97,16 @@
   }
   .right-header .name {
     font-size: 2.5rem !important;
+  }
+  .portfolios {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    padding-bottom: 6rem;
+  }
+  .blogs {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    padding-bottom: 6rem;
   }
   .header-content .left-header .image {
     margin: 0 auto !important;
