@@ -16,7 +16,7 @@
     display: none;
   }
   .controlls {
-    top: 91% !important;
+    top: 92% !important;
     bottom: 0;
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
@@ -149,10 +149,10 @@
     padding: 7rem 11rem;
   }
   .contact-content-con {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
   }
   .contact-content-con .right-contact {
     margin-left: 0 !important;
